@@ -3,6 +3,9 @@
 # chmod +x Miniconda3-latest-Linux-x86_64.sh
 # ./Miniconda3-latest-Linux-x86_64.sh
 
+# conda config --add channels defaults
+conda create -n quant python=3.13.1
+
 pip3 install pip-review
 conda update conda
 conda update --all
